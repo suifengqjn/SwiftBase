@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1DAC31281DBDF599009D4B4D /* XCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC31271DBDF599009D4B4D /* XCViewController.swift */; };
 		1DAC312A1DBDF5FB009D4B4D /* TBRootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC31291DBDF5FB009D4B4D /* TBRootController.swift */; };
+		1DAC31591DBDFFD6009D4B4D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC31561DBDFFD6009D4B4D /* Settings.bundle */; };
+		1DAC315C1DBE0025009D4B4D /* XCAppSettingInfoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC315B1DBE0025009D4B4D /* XCAppSettingInfoHelper.swift */; };
 		1DE9666D1DB9B9C300CE1BE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9666C1DB9B9C300CE1BE4 /* AppDelegate.swift */; };
 		1DE966741DB9B9C300CE1BE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE966731DB9B9C300CE1BE4 /* Assets.xcassets */; };
 		1DE966771DB9B9C300CE1BE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE966751DB9B9C300CE1BE4 /* LaunchScreen.storyboard */; };
@@ -18,6 +20,8 @@
 /* Begin PBXFileReference section */
 		1DAC31271DBDF599009D4B4D /* XCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCViewController.swift; sourceTree = "<group>"; };
 		1DAC31291DBDF5FB009D4B4D /* TBRootController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBRootController.swift; sourceTree = "<group>"; };
+		1DAC31561DBDFFD6009D4B4D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		1DAC315B1DBE0025009D4B4D /* XCAppSettingInfoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCAppSettingInfoHelper.swift; sourceTree = "<group>"; };
 		1DE966691DB9B9C300CE1BE4 /* SwBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE9666C1DB9B9C300CE1BE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DE966731DB9B9C300CE1BE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
@@ -75,6 +79,15 @@
 			path = Basic;
 			sourceTree = "<group>";
 		};
+		1DAC31551DBDFFD6009D4B4D /* SettingsInfo */ = {
+			isa = PBXGroup;
+			children = (
+				1DAC31561DBDFFD6009D4B4D /* Settings.bundle */,
+				1DAC315B1DBE0025009D4B4D /* XCAppSettingInfoHelper.swift */,
+			);
+			path = SettingsInfo;
+			sourceTree = "<group>";
+		};
 		1DE966601DB9B9C300CE1BE4 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +109,7 @@
 		1DE9666B1DB9B9C300CE1BE4 /* SwBasic */ = {
 			isa = PBXGroup;
 			children = (
+				1DAC31551DBDFFD6009D4B4D /* SettingsInfo */,
 				1DAC31241DBDF542009D4B4D /* Controllers */,
 				1DE9667E1DB9BA3700CE1BE4 /* SupportingFile */,
 				1DE9666C1DB9B9C300CE1BE4 /* AppDelegate.swift */,
@@ -186,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DE966771DB9B9C300CE1BE4 /* LaunchScreen.storyboard in Resources */,
+				1DAC31591DBDFFD6009D4B4D /* Settings.bundle in Resources */,
 				1DE966741DB9B9C300CE1BE4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DAC315C1DBE0025009D4B4D /* XCAppSettingInfoHelper.swift in Sources */,
 				1DAC312A1DBDF5FB009D4B4D /* TBRootController.swift in Sources */,
 				1DE9666D1DB9B9C300CE1BE4 /* AppDelegate.swift in Sources */,
 				1DAC31281DBDF599009D4B4D /* XCViewController.swift in Sources */,
